@@ -1,0 +1,273 @@
+/*
+=======================
+CSS RESET: meyerweb
+=======================
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+=======================
+CUSTOM STYLES
+=======================
+*/
+.body {
+	font-family: "Gill Sans", Arial, Helvetica, sans-serif;
+}
+
+/*
+=======================
+FONT AWESOME - ICONS
+=======================
+*/
+
+.font-awesome {
+	height: 100%;
+}
+.fa-circle-user {
+	padding-right: 6px;
+}
+.fa-ellipsis-vertical {
+	padding-right: 4px;
+}
+
+/*
+=======================
+MAIN HEADER/NAV BAR
+=======================
+*/
+
+header {
+	background-color: #000000; 
+	height: 41px;
+	margin-bottom: 30px;
+}
+.logo img {
+	height: 27px;
+	padding-right: 20px;
+}
+.primary-nav {
+	text-align: center;
+}
+.primary-nav li {
+	border-right: .5px solid #a9a9a9;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	height: 100%;
+	letter-spacing: 0.5px;
+	vertical-align: middle;
+}
+.sign-in-nav-button {
+	padding: 12px 80px 11px 20px;
+}
+.nav-buttons {
+	padding: 12px 20px 11px 20px;
+}
+.box-navs {
+	padding: 6px 20px 6px 20px;
+}
+.nav-buttons:hover,
+.box-navs:hover,
+.sign-in-nav-button:hover {
+	border-bottom: 3px solid #ffffff;
+}
+.primary-nav a {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+}
+select {
+	    -ms-background-color: transparent;
+	   -moz-background-color: transparent;
+	-webkit-background-color: transparent;
+	        background-color: transparent;
+	color: #ffffff;
+}
+.search {
+	width: 115px;
+}
+
+
+
+/*
+============================
+GRID
+============================
+*/
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.grid {
+	margin: 0 auto;
+	width: 1280px;
+}
+.col-1-3 {
+	display: inline-block;
+	padding: 0 16px;
+	width: 31%;
+	vertical-align: top;
+}
+
+.welcome-to-bbc,
+.news-header{
+  font-size: 22px;
+	font-weight: 700; /*font-weight: BOLD;*/
+	text-align: left;   
+}
+
+.date{
+font-size: 15px;
+color: #888888;
+margin-right: 0.3rem; 
+display :block; 
+float: right; 
+}
+/* MAIN TEASERS SECTION */
+
+
+.mt-table {
+	border-collapse: separate;
+	border-spacing: 16px 10px;
+	margin: 15px  -16px 0;
+}
+
+.main-teasers td {
+	border: 1px solid #000000;
+}
+.big-teaser-story{
+  height: 346.5px;
+    position: relative;
+	width: 616px;
+    
+}
+
+.big-teaser-story-img{
+  width: 103%;
+  position: relative;
+  top: -102px;
+  left: -15px;
+}
+
+.big-teaser-headline{
+	top: 100px;
+	left: 12px;
+	position: absolute;
+}
+.bth-overlay-title {
+	font-size: 32px;
+}
+.bth-overlay-text,
+.bth-overlay-subject {
+	font-size: 18px;
+}
+.bth-overlay-title,
+.bth-overlay-text,
+.bth-overlay-subject {
+	padding-bottom: 5px;   
+}
+
+
+.small-teaser-story{
+  height: 168.75px;
+	position: relative;
+	width: 300px;
+}
+.small-teaser-headline {
+	top: 78px;
+	left: 8px;
+	position: absolute;
+}
+.sth-overlay-title,
+.news-text
+ {
+	font-size: 18px;
+  padding-bottom: 10px;
+}
+.sth-overlay-subject{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+/*
+=======================
+NEWS TEASERS SECTION
+=======================
+*/
+
+.news-section {
+	margin: 0 -16px;
+}
+
+.subject{
+  text-transform: uppercase
+}
+	
+.col-1-3 img{
+  height: 200px;
+	width: 400px;
+}
+.news-heading {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+.news-text {
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+.end {
+	margin-bottom: 25px;
+}
