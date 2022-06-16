@@ -184,27 +184,22 @@ float: right;
 }
 
 .main-teasers td {
-	border: 1px solid #000000;
+	border: 1px solid #0c0000;
 }
 .big-teaser-story{
-  height: 346.5px;
+  	height:346.5px;
     position: relative;
 	width: 616px;
-    
-}
-
-.big-teaser-story-img{
-  width: 103%;
-  position: relative;
-  top: -102px;
-  left: -15px;
+	background-image: url("image/israel-uae.jpg");   
 }
 
 .big-teaser-headline{
-	top: 100px;
+	top: 200px;
 	left: 12px;
 	position: absolute;
+	
 }
+
 .bth-overlay-title {
 	font-size: 32px;
 }
@@ -218,12 +213,12 @@ float: right;
 	padding-bottom: 5px;   
 }
 
-
 .small-teaser-story{
-  height: 168.75px;
+  height: 168.5px;
 	position: relative;
 	width: 300px;
 }
+
 .small-teaser-headline {
 	top: 78px;
 	left: 8px;
@@ -256,7 +251,7 @@ NEWS TEASERS SECTION
 	
 .col-1-3 img{
   height: 200px;
-	width: 400px;
+	width: 357px;
 }
 .news-heading {
 	font-size: 20px;
